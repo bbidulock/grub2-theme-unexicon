@@ -17,3 +17,4 @@ scripts/
 Makefile
 config.log
 config.status
+_install/
