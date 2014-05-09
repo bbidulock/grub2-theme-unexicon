@@ -3,7 +3,8 @@
 @PACKAGE@
 ===============
 
-Package @PACKAGE@-@VERSION@ was released under GPLv3 license @DATE@.
+Package @PACKAGE@-@VERSION@ was released under CCPL:cc-by-sa-3.0
+license @DATE@.
 
 This is a grub2 gfxmenu theme for the "Unexicon Live" platform.
 
@@ -29,8 +30,9 @@ When working from `git(1)', please see the `README-git' file.  An
 abbreviated installation procedure that works for most applications
 appears below.
 
-This release is published under GPLv3.  Please see the license in
-the file `COPYING'.
+This release is published under CCPL:cc-by-sa-3.0.  Please see
+the license in the file `COPYING'.  Note also that `Unexicon' is
+a trademark of OpenSS7 Corporation.
 
 Quick Start:
 ------------

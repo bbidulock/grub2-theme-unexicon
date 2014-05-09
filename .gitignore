@@ -1,7 +1,6 @@
 .*.sw[nop]
 AUTHORS
 AUTHORS.in
-COPYING
 ChangeLog
 INSTALL
 Makefile.in

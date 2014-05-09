@@ -32,7 +32,8 @@ TODO: TODO.in
 	sed -r -e 's:\@PACKAGE\@:$(PACKAGE):g;s:\@VERSION\@:$(VERSION):g;s:\@DATE\@:$(DATE):g' $< >$@
 
 EXTRA_DIST = autogen.sh configure.template \
-	README.in NEWS.in THANKS.in TODO.in
+	README.in NEWS.in THANKS.in TODO.in \
+	COPYING LICENSE
 
 DISTCLEANFILES = AUTHORS AUTHORS.in
 
