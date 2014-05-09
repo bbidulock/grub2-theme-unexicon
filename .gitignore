@@ -1,0 +1,16 @@
+.*.sw[nop]
+AUTHORS
+AUTHORS.in
+COPYING
+ChangeLog
+INSTALL
+Makefile.in
+NEWS
+README
+THANKS
+TODO
+aclocal.m4
+autom4te.cache/
+configure
+configure.ac
+scripts/
