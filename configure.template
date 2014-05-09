@@ -1,0 +1,35 @@
+
+AC_PREREQ([2.69])
+AC_INIT([grub2-theme-unexicon],[1.0.1],[http://github.com/bbidulock/grub2-theme-unexicon/issues],[unexicon-system],[https://github.com/bbidulock/grub2-theme-unexicon])
+AC_REVISION([1.0.1])
+
+AC_CONFIG_SRCDIR([configure.template])
+AC_CONFIG_MACRO_DIR([m4])
+AC_CONFIG_AUX_DIR([scripts])
+
+DATE=`date -uI`
+AC_SUBST([DATE])
+
+AM_INIT_AUTOMAKE([gnits 1.14 dist-xz no-dist-gzip std-options -Wall color-tests silent-rules tar-pax])
+AM_MAINTAINER_MODE
+
+# Checks for programs.
+AC_PROG_AWK
+AC_PROG_INSTALL
+AC_PROG_LN_S
+AC_PROG_MAKE_SET
+AC_PROG_MKDIR_P
+
+test "x$prefix" = xNONE && prefix="$ac_default_prefix"
+sharedir="$datadir"
+eval "sharedir=\"$sharedir\""
+eval "sharedir=\"$sharedir\""
+eval "sharedir=\"$sharedir\""
+
+AC_SUBST([sharedir])
+
+AC_CONFIG_FILES([Makefile])
+
+AC_OUTPUT
+
+# vim: set ft=config:
