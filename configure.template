@@ -1,7 +1,7 @@
 
 AC_PREREQ([2.69])
-AC_INIT([grub2-theme-unexicon],[1.0.1],[http://github.com/bbidulock/grub2-theme-unexicon/issues],[unexicon-system],[https://github.com/bbidulock/grub2-theme-unexicon])
-AC_REVISION([1.0.1])
+AC_INIT([grub2-theme-unexicon],[0.0.4],[http://github.com/bbidulock/grub2-theme-unexicon/issues],[unexicon-system],[https://github.com/bbidulock/grub2-theme-unexicon])
+AC_REVISION([0.0.4])
 
 AC_CONFIG_SRCDIR([configure.template])
 AC_CONFIG_MACRO_DIR([m4])

@@ -54,37 +54,6 @@ nobase_dist_share_DATA = \
 	grub/fonts/dejavu_bold_24.pf2 \
 	grub/fonts/unicode2.pf2 \
 	grub/fonts/unicode.pf2 \
-	grub/themes/icons/advanced.png \
-	grub/themes/icons/autoconsole.png \
-	grub/themes/icons/boot.png \
-	grub/themes/icons/cd.png \
-	grub/themes/icons/checkpoint.png \
-	grub/themes/icons/copytoram.png \
-	grub/themes/icons/current.png \
-	grub/themes/icons/drive.png \
-	grub/themes/icons/failsafe.png \
-	grub/themes/icons/fallback.png \
-	grub/themes/icons/graphical.png \
-	grub/themes/icons/installed.png \
-	grub/themes/icons/install.png \
-	grub/themes/icons/laptop.png \
-	grub/themes/icons/live.png \
-	grub/themes/icons/localconsole.png \
-	grub/themes/icons/makeusb.png \
-	grub/themes/icons/memtest86.png \
-	grub/themes/icons/nongraphical.png \
-	grub/themes/icons/normal.png \
-	grub/themes/icons/noserial.png \
-	grub/themes/icons/partition.png \
-	grub/themes/icons/persistent.png \
-	grub/themes/icons/persist.png \
-	grub/themes/icons/prepare.png \
-	grub/themes/icons/previous.png \
-	grub/themes/icons/recovery.png \
-	grub/themes/icons/rescue.png \
-	grub/themes/icons/rollback.png \
-	grub/themes/icons/serial.png \
-	grub/themes/icons/settings.png \
 	grub/themes/os7live/background.jpg \
 	grub/themes/os7live/blob_w.png \
 	grub/themes/os7live/boot_menu_c.png \
