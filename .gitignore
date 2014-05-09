@@ -14,3 +14,6 @@ autom4te.cache/
 configure
 configure.ac
 scripts/
+Makefile
+config.log
+config.status
