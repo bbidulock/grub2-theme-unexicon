@@ -4,7 +4,6 @@ AC_INIT([grub2-theme-unexicon],[0.0.4],[http://github.com/bbidulock/grub2-theme-
 AC_REVISION([0.0.4])
 
 AC_CONFIG_SRCDIR([configure.template])
-AC_CONFIG_MACRO_DIR([m4])
 AC_CONFIG_AUX_DIR([scripts])
 
 DATE=`date -uI`

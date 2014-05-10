@@ -1,7 +1,7 @@
 #!/bin/bash
 
 PACKAGE=grub2-theme-unexicon
-VERSION=
+VERSION=1.0.1
 DATE="`date -uI`"
 
 if [ -z "$VERSION" ]; then
@@ -34,7 +34,5 @@ sed -r -e "$subst" NEWS.in	>NEWS
 sed -r -e "$subst" AUTHORS.in	>AUTHORS
 sed -r -e "$subst" THANKS.in	>THANKS
 sed -r -e "$subst" TODO.in	>TODO
-
-mkdir -p m4 2>/dev/null
 
 autoreconf -fiv
